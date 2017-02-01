@@ -57,6 +57,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
+    public void resetScore(View v){
+
+        scoreTeamA = 0;
+        scoreTeamB = 0;
+        displayForTeamA(scoreTeamA);
+        displayForTeamB(scoreTeamB);
+    }
+
+
     public void displayForTeamA(int score) {
 
 
@@ -73,7 +83,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void minusOneForTeamA(View view) {
 
-    }
 }
